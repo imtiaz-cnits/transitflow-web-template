@@ -626,3 +626,82 @@ form input {
 }
 
 /* END FORM SECTION  */
+
+/* START BLOG SECTION */
+#Blog{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--common-white);
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+}
+
+.blogParagraphOne {
+    background-color: #E8E8E8;
+    display: inline-block;
+    border-left: 6px solid var(--primary-color-1);
+    padding: 5px 10px ;
+    font-family: var(--primary-font-Rubik);
+    font-weight: 400;
+    margin-top: 20px ;
+}
+.blogHeadingText h2{
+    font-family: var(--primary-font-Rubik);
+    font-size: 35px;
+    font-weight:var(--semibold) ;
+    margin-bottom: 20px;
+}
+.blogText ul li a{
+    text-decoration: none;
+    font-family: var(--secondary-font-Krub);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--common-black);
+}
+
+.blogText{
+    padding: 20px 30px;
+    border-left: solid 1px rgb(128, 11, 0);
+}
+.blogSecondColumn{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.blogContentWrapper{
+    border-top: 1px solid rgb(226, 0, 0);
+    border-bottom: 1px solid red;
+    margin: 50px 100px ;
+}
+
+
+.blogfooterBtn button {
+    padding: 15px 25px ;
+    margin-top: 25px ;
+    background:var(--secondary-navy) !important;
+    font-family: var(--secondary-font-Krub);
+    font-weight: 600;
+    font-size: 16px ;
+    border-radius: 2px ;
+    border: none;
+    transition: .5s ease-in-out;
+    color: var(--primary-color-1);
+}
+.blogfooterBtn button:hover {
+    background: linear-gradient(to right, #FFB629, #FFDA56) !important;
+    color: var(--secondary-navy);
+}
+
+/* END BLOG SECTION */
+
+/* START CRAIN-SHIPMENT-SEA SECTION */
+    #shipmentSea{
+        background: url(../img/crain-shipmentSea-bg-img.png) no-repeat;
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    /* END CRAIN-SHIPMENT-SEA SECTION */
