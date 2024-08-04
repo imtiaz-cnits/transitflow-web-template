@@ -78,7 +78,7 @@
     color: var(--Paragraph-Font-color);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
     .relaibleWrapperOne{
         text-align: center;
     }
@@ -86,6 +86,7 @@
         padding: 0 0 20px 0 ;
     }
 }
+
 /* END RELAIBLE SECTION  */
 
 /* START CONTAINER PHOTO SECTION */
@@ -159,6 +160,7 @@
     right: 30%;
     border: 40px solid var(--common-white);
 }
+
 
 /* END GLOBAL SECTION */
 
@@ -258,8 +260,11 @@
 .transportButton{
     margin-top: 70px;
 }
-.transportButton button{
-    padding: 10px 20px ;
+.transportButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .transportContentTwo{
@@ -348,7 +353,7 @@
 #gradientImg{
     background: url(../img/Gradient-Background-img.png) no-repeat;
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     background-position: center;
     background-size: cover;
     margin-bottom: 100px ;
@@ -662,7 +667,7 @@ form input {
 
 .blogText{
     padding: 20px 30px;
-    border-left: solid 1px rgb(128, 11, 0);
+    border-left: solid 1px rgb(221, 221, 221);
 }
 .blogSecondColumn{
     display: flex;
@@ -670,27 +675,23 @@ form input {
     justify-content: space-between;
 }
 .blogContentWrapper{
-    border-top: 1px solid rgb(226, 0, 0);
-    border-bottom: 1px solid red;
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221) ;
     margin: 50px 100px ;
 }
-
-
-.blogfooterBtn button {
-    padding: 15px 25px ;
-    margin-top: 25px ;
-    background:var(--secondary-navy) !important;
-    font-family: var(--secondary-font-Krub);
-    font-weight: 600;
-    font-size: 16px ;
-    border-radius: 2px ;
-    border: none;
-    transition: .5s ease-in-out;
-    color: var(--primary-color-1);
+.blogfooterBtn  {
+   display: flex;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
 }
-.blogfooterBtn button:hover {
-    background: linear-gradient(to right, #FFB629, #FFDA56) !important;
-    color: var(--secondary-navy);
+
+
+@media screen and (max-width:768px) {
+   .blogimgWrapper img{
+    display: ;
+
+   }
 }
 
 /* END BLOG SECTION */

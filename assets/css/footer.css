@@ -213,6 +213,7 @@
     align-items: center;
     align-content: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     font-family: var(--secondary-font-Krub);
     font-weight: 500;
     color: var(--common-white);
@@ -226,6 +227,7 @@
     display: flex;
     align-items: center;
     align-content: center;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
    }
@@ -242,5 +244,11 @@
    }
    .copyrightWrapper ul li a:hover {
    color: #ffffff;
+   }
+
+   @media screen and (max-width:1200px) {
+    .footerOne{
+        display: none;
+    }
    }
 /* END COPYRIGHT SECTION  */
