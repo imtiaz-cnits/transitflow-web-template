@@ -39,6 +39,7 @@
     width: 100%;
     min-height: 70vh;
     margin-bottom: 70px;
+    
 }
 
 .teamParagraphOne{
@@ -54,7 +55,6 @@
     font-family: var(--primary-font-Rubik);
     font-size: 35px;
     font-weight:var(--semibold) ;
-    margin-bottom: 50px;
 }
 .teamCardTitle {
     font-family: var(--primary-font-Rubik);
@@ -100,4 +100,31 @@
     padding: 10px;
     cursor: pointer;
 }
+.teamCardWrapper{
+    margin-top: 50px;
+    
+}
+
+@media screen and (max-width:1200px) {
+    
+    .cardparent{
+        display: flex !important;
+        align-items: center !important;
+        align-content: center !important;
+        justify-content: center !important;
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        width:100% !important;
+    }
+    .teamCardWrapper{
+        width: 100% !important;
+    }
+}
+
+
 /* END TEAM SECTION  */

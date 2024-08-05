@@ -36,7 +36,7 @@
     box-sizing: border-box;
 }
 
-/* END UNIQ BUTTON  */
+/* START UNIQ BUTTON  */
 .PrimaryUniqBtnWrapper{
     display: flex;
 }
@@ -49,6 +49,7 @@
     width: 250px ;
     height: 80px;
     border-radius: 2px;
+    
 
 }
 .UniqPrimaryColorBtn span{
@@ -139,7 +140,7 @@
 @media screen and (max-width:1200px) {
 
     .UniqPrimaryColorBtn button {
-        background: linear-gradient(to right, #FFB629, #FFDA56,#FFD7A6);
+        
         border: none;
         padding: 20px 50px ;
         font-size: 15px ;
@@ -153,7 +154,6 @@
     width: 80px ;
     height: 80px ;
     border-radius: 50%;
-    background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: -30px;
     right:-20px;
@@ -163,13 +163,13 @@
     width: 200px ;
     height:200px ;
     border-radius: 50%;
-    background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: -70px;
     right:-60px;
 }
 .PrimaryUniqBtnWrapper{
-    display: flex;justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 }
 /* END UNIQ BUTTON  */
