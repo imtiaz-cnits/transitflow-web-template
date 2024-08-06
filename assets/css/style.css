@@ -439,17 +439,6 @@
 /* END GRADIENT IMG SECTION  */
 
 
-/* START SLIDER SECTION  */
-    #slider{
-        width: 100%;
-        height: 50vh;
-        background-color: var(--primary-color-1);
-        display: grid;
-        place-items: center;
-        margin-bottom:100px ;
-    }
-/* END SLIDER SECTION  */
-
 /* START POTENTIAL SECTION  */
 #potential{
     width: 100%;

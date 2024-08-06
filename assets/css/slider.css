@@ -1,4 +1,13 @@
 
+/* START SLIDER SECTION  */
+#slider{
+    width: 100%;
+    min-height: 70vh;
+    background-color: var(--primary-color-1);
+    margin-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+}
 
 .carousel {
 	margin: 50px auto;
@@ -91,4 +100,34 @@
 }
 .sliderCard .card-text{
     font-size: 16px !important;
+}
+
+/* END SLIDER SECTION  */
+
+
+.carousel-control-prev, .carousel-control-next {
+	width: 40px !important;
+	height: 40px !important; 
+    background: #666;
+    text-shadow: none;
+	top: 4px;
+    margin-top: -39px ;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 10px;
+}
+.carousel-control-prev{
+    position: absolute !important;
+    top: 0 !important;
+    right: 50px !important;
+}
+.container-lg{
+    width: 100% !important;
+    height: 800px !important;
+}
+.carousel-indicators  {
+    margin-top: 400px !important;
 }
