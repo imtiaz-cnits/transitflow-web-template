@@ -37,23 +37,28 @@
 /* START HEADER SECTION  */
 #header {
   background-color: var(--primary-color-2);
-  padding: 40px;
+  padding: 30px;
 }
-.listLogo i {
+.listLogo .headerIconParent  {
   font-size: 30px;
   color: rgb(255, 255, 255);
-  padding: 20px;
   border-radius: 50%;
   transition: 0.2s ease-in-out;
   background-color: #273270;
   border: var(--icon-border);
   color: var(--primary-color-1);
+  width: 50px;
+  height: 50px ;
 }
-.listLogo i:hover {
-  background-color: var(--primary-color-1);
-  color: var(--primary-color-2);
-  transform: rotate(360deg);
+
+
+.headerIconParent  {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
+
 .listLogo {
   display: flex;
   align-content: center;
@@ -100,7 +105,7 @@
 
 /* START NAVBAR SECTION  */
 nav {
-  background: url(../img/Home-heroSection-Photo\\(1\).webp) no-repeat;
+  background: url(../img/Home-heroSection-Photo.webp) no-repeat;
   width: 100%;
   min-height: 100vh;
   background-position: center;
@@ -267,21 +272,20 @@ nav {
   display: inline-block;
   border-left: 6px solid var(--primary-color-1);
   padding: 5px 15px;
-  font-size: clamp(5px, auto, 15px);
+  font-size: clamp(5px, auto, 10px);
   font-weight: var(--semibold);
   color: var(--common-white);
   background-color: rgba(21, 21, 92, 0.8);
 }
 .heroHeading h1 {
-  font-size: clamp(35px, 4vw, 65px);
+  font-size: clamp(35px, 4vw, 50px);
   font-weight: bold;
   color: var(--common-white);
   font-family: var(--primary-font-Rubik) !important;
-  line-height: 90px;
-  margin: 10px 0px;
+  line-height: 65px;
 }
 .heroSecondParagraph {
-  font-size: clamp(15px, 2vw, 20px);
+  font-size: clamp(15px, 2vw, 15px);
   color: var(--common-white);
   margin: 20px 0px;
 }

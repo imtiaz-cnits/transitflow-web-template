@@ -12,7 +12,7 @@
   --secondary-2: #f4f4f4;
   --secondary-navy: rgba(9, 18, 66, 1);
   --Heading-Font-color: #1c1f35;
-  --Paragraph-Font-color: #666c89;
+  --Paragraph-Font-color: #c8cbd9;
   --Gradiant-color: #ffb629, #ffda56, #ffd7a6;
   --icon-bg-color: #273270;
   --icon-border: 1px solid #4a57a1;
@@ -95,10 +95,10 @@
   color: var(--common-black);
 }
 .footerIcon a {
-  text-decoration: none;
+  text-decoration: none !important;
   font-family: var(--primary-font-Rubik);
   font-weight: 400;
-  color: var(--common-white);
+  color:#79798b;
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
@@ -114,15 +114,15 @@
 
 .footercolWrapper p {
   font-family: var(--secondary-font-Krub);
-  font-size: 16px;
-  color: var(--common-white);
+  font-size: 14px;
+  color: #79798b;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
 .footerColWrapper2 ul li {
   list-style-type: none;
-  padding: 10px;
+  padding: 5px;
 }
 .footerColWrapper2 ul {
   padding: 0;
@@ -134,6 +134,7 @@
   font-family: var(--secondary-font-Krub);
   color: var(--common-white);
   transition: 0.2s ease-in-out;
+  color: #79798b;
 }
 
 .footerColWrapper2 ul li a:hover {
@@ -180,6 +181,20 @@
 
 .footerButton a:hover {
   color: var(--primary-color-1);
+}
+
+.footerheaderText a {
+ text-decoration: none !important;
+ transition: .2s ease-in-out;
+}
+
+.footerheaderText a:hover {
+  color: var(--primary-color-1);
+}
+
+.footerIcon a{
+  text-decoration: none;
+  color:#79798b ;
 }
 
 @media screen and (max-width: 768px) {

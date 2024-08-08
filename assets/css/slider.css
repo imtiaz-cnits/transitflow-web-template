@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 20vh;
   background-color: var(--primary-color-1);
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   overflow: hidden;
   position: relative;
 }

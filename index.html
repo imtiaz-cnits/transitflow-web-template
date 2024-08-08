@@ -41,7 +41,6 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="./practice.css" />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -64,7 +63,11 @@
               <ul>
                 <li>
                   <div class="listLogo">
-                    <a href="#"><i class="fa-regular fa-clock"></i></a>
+                    <a href="#">
+                       <div class="headerIconParent"> 
+                      <img src="./assets/icons/clock-icon.svg" alt="">
+                    </div>
+                  </a>
                     <a href=""
                       >Mon - Sat 9.00 - 18.00 <br />
                       Sunday Closed
@@ -74,7 +77,11 @@
 
                 <li>
                   <div class="listLogo">
-                    <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="#">
+                      <div class="headerIconParent"> 
+                        <img src="./assets/icons/mailBox-icon.svg" alt="">
+                      </div>
+                    </a>
                     <a href=""
                       >Email <br />
                       contact@logistics.com
@@ -84,7 +91,11 @@
 
                 <li>
                   <div class="listLogo">
-                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#">
+                      <div class="headerIconParent"> 
+                        <img src="./assets/icons/call-icon.svg" alt="">
+                      </div>
+                    </a>
                     <a href=""
                       >Call Us <br />
                       (00) 112 365 489
@@ -120,7 +131,7 @@
                     href="#"
                     >Pages</a
                   >
-                  <!-- <ul class="dropdown-menu">
+                  <!-- <ul class="dropdown-menu ">
                                     <li><a class="dropdown-item" href="#">Link 1</a></li>
                                     <li><a class="dropdown-item" href="#">Link 2</a></li>
                                     <li><a class="dropdown-item" href="#">Link 3</a></li>
@@ -356,17 +367,20 @@
                   </p>
                 </div>
 
-                <div class="globalDelivaryIcon">
-                  <a href="#">
-                    <i class="fa-solid fa-box"></i> Delivery on Time
-                  </a>
+                <div class="globalDelivaryIcon mb-4">
+                   <div class="globalIconParent">
+                    <img src="./assets/icons/global-delivary-icon.svg" alt="">
+                   </div>
+                  <a href="">Delivery on Time</a> 
                 </div>
 
                 <div class="globalDelivaryIcon">
-                  <a href="#">
-                    <i class="fa-solid fa-plane"></i> Optimized Travel Cost
-                  </a>
+                   <div class="globalIconParent">
+                    <img src="./assets/icons/global-travel-icon.svg" alt="">
+                   </div>
+                  <a href="">Optimized Travel Cost</a> 
                 </div>
+
               </div>
 
               <div class="col-xl-6">
@@ -375,7 +389,7 @@
                     src="./assets/img/airbus-img.png"
                     alt=""
                     width="100%"
-                    height="400px"
+                    height="350px"
                   />
                 </div>
               </div>
@@ -417,6 +431,7 @@
       <!-- END COUNTER SECTION  -->
 
       <!-- START TRANSPORT SECTION  -->
+       
       <section id="transport">
         <div class="container-fluid">
           <div class="transportHeading">
@@ -484,7 +499,9 @@
       <!-- END TRANSPORT SECTION  -->
 
       <!-- START GRADIENT IMG SECTION  -->
-      <section id="gradientImg"></section>
+      <section id="gradientImg">
+
+      </section>
       <!-- END GRADIENT IMG SECTION  -->
 
       <!-- START SLIDER SECTION  -->
@@ -884,9 +901,9 @@
                     />
                     <div class="potentialBtn">
                       <div class="potentialMultiIcon">
-                        <img
+                        <img class=""
                           src="./assets/icons/potential-multi-Icon.svg"
-                          alt=""
+                          alt="" width="20%"
                         />
                         <div class="potentialBtnText">
                           <a href="#">Moving your products across borders</a>
@@ -902,53 +919,60 @@
                     <h2>We create opportunity to reach potential</h2>
                     <p class="potentialText2">
                       Leverage agile frameworks to provide a robust synopsis for
-                      strategy <br />
+                      strategy 
                       foster collaborative thinking to further the overall value
                       proposition.
                     </p>
                   </div>
                   <div class="potentialIconWrapper">
-                    <div class="potentialIconOne">
-                      <div class="PotentialIcon">
-                        <a href="#">
-                          <i class="fa-solid fa-box"></i> Safe Package
-                        </a>
-                      </div>
+                    <div class="potentialIconOne me-2">
 
-                      <div class="PotentialIcon">
-                        <a href="#">
-                          <i class="fa-solid fa-ship"></i> Ship Everyware
-                        </a>
-                      </div>
+                      <div class="potentialIcon mb-3">
+                        <div class="potentialIconParent">
+                         <img src="./assets/icons/global-delivary-icon.svg" alt="">
+                        </div>
+                       <a href="">Safe Package</a> 
+                     </div>
 
-                      <div class="PotentialIcon">
-                        <a href="#">
-                          <i class="fa-solid fa-globe"></i> Global Tracking
-                        </a>
+                     <div class="potentialIcon mb-3">
+                      <div class="potentialIconParent">
+                       <img src="./assets/icons/potential-earth-Icon.svg" alt="">
                       </div>
+                     <a href="">Global Tracking</a> 
+                   </div>
+
+                   <div class="potentialIcon mb-3">
+                    <div class="potentialIconParent">
+                     <img src="./assets/icons/potential-clock-Icon.svg" alt="">
+                    </div>
+                   <a href="">In Time Delivery</a> 
+                 </div>
+
                     </div>
                     <!--  -->
 
                     <div class="potentialIconTwo">
-                      <div class="PotentialIcon">
-                        <a href="#">
-                          <i class="fa-solid fa-headphones-simple"></i> 24/7
-                          Support
-                        </a>
-                      </div>
 
-                      <div class="PotentialIcon">
-                        <a href="#">
-                          <i class="fa-regular fa-clock"></i> In Time Delivery
-                        </a>
-                      </div>
+                      <div class="potentialIcon mb-3">
+                        <div class="potentialIconParent">
+                         <img src="./assets/icons/potential-ship-Icon.svg" alt="">
+                        </div>
+                       <a href="">Ship Everyware</a> 
+                     </div>
 
-                      <div class="PotentialIcon">
-                        <a href="#">
-                          <i class="fa-solid fa-hand-holding-dollar"></i
-                          >Transparant
-                        </a>
+                     <div class="potentialIcon mb-3">
+                      <div class="potentialIconParent">
+                       <img src="./assets/icons/potential-headphoneIcon.svg" alt="">
                       </div>
+                     <a href="">24/7 Support</a> 
+                   </div>
+
+                   <div class="potentialIcon mb-3">
+                    <div class="potentialIconParent">
+                     <img src="./assets/icons/potential-coin-Icon.svg" alt="">
+                    </div>
+                   <a href="">Transparant Pricing</a> 
+                 </div>
                     </div>
                   </div>
                 </div>
@@ -1051,7 +1075,7 @@
         <div class="container">
           <div class="formWrapper">
             <div class="row">
-              <div class="col-xl-4 mt-5">
+              <div class="col-xl-5">
                 <div class="formColWrapper">
                   <div class="formHeadingText">
                     <p class="formParagraphOne">Contact</p>
@@ -1097,14 +1121,14 @@
                 </div>
               </div>
               <!-- -->
-              <div class="col-xl-8 mt-4">
+              <div class="col-xl-7 ">
                 <div class="formColWrapper">
                   <form>
                     <div class="row">
                       <div class="col-6 formInput mt-4">
                         <input
                           type="text"
-                          class="form-control form-control-lg"
+                          class="form-control form-control"
                           placeholder="Your name*"
                           name="email"
                         />
@@ -1113,7 +1137,7 @@
                       <div class="col-6 formInput mt-4">
                         <input
                           type="email"
-                          class="form-control form-control-lg"
+                          class="form-control form-control"
                           placeholder="Email*"
                           name="pswd"
                         />
@@ -1122,7 +1146,7 @@
                       <div class="col-6 formInput mt-4">
                         <input
                           type="number"
-                          class="form-control form-control-lg"
+                          class="form-control form-control"
                           placeholder="Phone Number*"
                           name="pswd"
                         />
@@ -1131,7 +1155,7 @@
                       <div class="col-6 formInput mt-4">
                         <input
                           type="text"
-                          class="form-control form-control-lg"
+                          class="form-control form-control"
                           placeholder="City*"
                           name="pswd"
                         />
@@ -1139,7 +1163,7 @@
 
                       <div class="col-12 mt-4">
                         <textarea
-                          rows="6"
+                          rows="4"
                           cols="110"
                           placeholder="Your massage..."
                         ></textarea>
@@ -1155,10 +1179,18 @@
           </div>
 
           <div class="formImgWrapper">
-            <div class="formImgOne"></div>
-            <div class="formImgTwo"></div>
-            <div class="formImgThree"></div>
-            <div class="formImgFour"></div>
+            <div class="formImgOne">
+              <img src="./assets/icons/form-one-Logo.png" alt="">
+            </div>
+            <div class="formImgTwo">
+              <img src="./assets/icons/form-two-icon-Norto.svg" alt="">
+            </div>
+            <div class="formImgThree">
+              <img src="./assets/icons/form-three-iconLogo.svg" alt="">
+            </div>
+            <div class="formImgFour">
+              <img src="./assets/icons/form-four-icon-.svg" alt="">
+            </div>
           </div>
         </div>
       </section>
@@ -1166,7 +1198,7 @@
 
       <!-- START BLOG SECTION  -->
       <section id="Blog">
-        <div class="container">
+        <div class="container px-5">
           <div class="blogWrapper">
             <div class="blogHeadingText text-center">
               <p class="blogParagraphOne">Our Blog</p>
@@ -1309,23 +1341,27 @@
                     proposition.
                   </p>
 
-                  <div class="footerIcon">
+                  <div class="listLogo mb-3 footerIcon">
                     <a href="#">
-                      <i class="fa-solid fa-envelope"></i>
-                      <a href="#">
-                        Email <br />
-                        contact@logistics.com</a
-                      >
+                      <div class="headerIconParent "> 
+                        <img src="./assets/icons/mailBox-icon.svg" alt="">
+                      </div>
+                    </a>
+                    <a href=""
+                      >Email <br />
+                      contact@logistics.com
                     </a>
                   </div>
 
-                  <div class="footerIcon">
+                  <div class="listLogo footerIcon">
                     <a href="#">
-                      <i class="fa-solid fa-phone"></i>
-                      <a href="#">
-                        Call Us <br />
-                        (00) 112 365 4589589</a
-                      >
+                      <div class="headerIconParent "> 
+                        <img src="./assets/icons/call-icon.svg" alt="">
+                      </div>
+                    </a>
+                    <a href=""
+                      >Call Us <br />
+                      (00) 112 365 489
                     </a>
                   </div>
                 </div>

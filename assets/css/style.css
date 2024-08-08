@@ -49,14 +49,15 @@
   background-color: #e8e8e8;
   display: inline-block;
   border-left: 6px solid var(--primary-color-1);
-  padding: 5px 10px;
+  padding: 3px 10px;
   font-family: var(--primary-font-Rubik);
   font-weight: 400;
   margin-top: 20px;
+  font-size: 15px;
 }
 .relaibleWrapperOne h2 {
   font-family: var(--primary-font-Rubik);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: var(--semibold);
   margin-bottom: 50px;
 }
@@ -70,10 +71,11 @@
   font-family: var(--primary-font-Rubik);
   font-weight: 400;
   padding: 5px 0px;
+  font-size: 18px;
 }
 .relaibleIconeContent p {
   font-family: var(--secondary-font-Krub);
-  font-size: 16px;
+  font-size: 14px;
   color: var(--Paragraph-Font-color);
 }
 
@@ -107,7 +109,7 @@
 .globalWrapper {
   padding: 70px;
   position: relative;
-  margin-top: -200px;
+  margin-top: -120px;
   background-color: var(--common-white);
 }
 .globalParagraph {
@@ -118,37 +120,44 @@
   font-family: var(--primary-font-Rubik);
   font-weight: 400;
   margin-top: 20px;
+  font-size: 15px;
 }
 .globalContent h2 {
   font-family: var(--primary-font-Rubik);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: var(--semibold);
   margin-bottom: 20px;
 }
 .globalP2 {
   font-family: var(--secondary-font-Krub);
-  font-size: 16px;
+  font-size: 14px;
   color: var(--Paragraph-Font-color);
   font-weight: 500;
   margin-bottom: 50px;
 }
 
-.globalDelivaryIcon i {
-  background: linear-gradient(to right, var(--Gradiant-color));
+.globalIconParent{
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(to right, var(--Gradiant-color)) ;
   border-radius: 50%;
-  padding: 20px;
-  font-size: 20px;
-  color: var(--common-black);
-  margin-bottom: 25px;
-  margin-right: 10px;
-  transition: 0.5s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+ 
 }
-.globalDelivaryIcon i:hover {
-  transform: rotatex(-360deg);
+.globalDelivaryIcon{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
 }
+
+
 .globalDelivaryIcon a {
-  text-decoration: none;
-  font-size: 20px;
+  text-decoration: none !important;
+  font-size: 18px;
   font-family: var(--primary-font-Rubik);
   font-weight: 400;
   color: var(--common-black);
@@ -159,6 +168,7 @@
   bottom: 20px;
   right: 30%;
   border: 40px solid var(--common-white);
+  width: 300px;
 }
 
 @media screen and (max-width: 768px) {
@@ -191,10 +201,9 @@
   width: 100%;
   height: auto;
   background-color: var(--common-white);
-  margin-top: 40px;
 }
 .counterWrapper {
-  padding: 0px 70px;
+  padding: 0px 60px;
 }
 .CounterContent {
   display: flex;
@@ -206,12 +215,13 @@
   padding: 20px;
 }
 .CounterContent h1 {
-  font-size: 60px;
+  font-size: 40px;
   font-family: var(--primary-font-Rubik);
   padding: 20px 10px;
+  font-weight: bold;
 }
 .CounterContent span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: var(--semibold);
   font-family: var(--secondary-font-Krub);
   padding: 5px 10px;
@@ -249,21 +259,20 @@
   width: 100%;
   min-height: 600px;
   background-color: transparent;
-  margin-top: 90px;
-  margin-bottom: -350px;
+  margin-top: 60px;
+  margin-bottom: -330px;
 }
 .transportHeading h2 {
   font-family: var(--primary-font-Rubik);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: var(--semibold);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   text-align: center;
-  margin: 20px 0px;
-  padding: 20px 10px;
+  margin: 30px 0px;
 }
 .transportContentOne {
-  width: 302px;
-  height: 410px;
+  width: 240px;
+  height: 310px;
   background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.8),
@@ -284,14 +293,14 @@
 
 .transportText h3 {
   font-family: var(--primary-font-Rubik);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: var(--semibold);
   color: var(--common-white);
 }
 .transportText p {
   font-family: var(--secondary-font-Krub);
   color: var(--primary-color-1);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
 }
 .transportImgwrapper {
@@ -303,9 +312,10 @@
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
+  gap: 25px;
 }
 .transportButton {
-  margin-top: 70px;
+  margin-top: 40px;
 }
 .transportButton {
   display: flex;
@@ -315,8 +325,8 @@
 }
 
 .transportContentTwo {
-  width: 302px;
-  height: 410px;
+  width: 240px;
+  height: 310px;
   background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.8),
@@ -335,8 +345,8 @@
   transition: 0.2s ease-in-out;
 }
 .transportContentThree {
-  width: 302px;
-  height: 410px;
+  width: 240px;
+  height: 310px;
   background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.8),
@@ -355,8 +365,8 @@
   transition: 0.2s ease-in-out;
 }
 .transportContentFour {
-  width: 302px;
-  height: 410px;
+  width: 240px;
+  height: 310px;
   background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.8),
@@ -375,8 +385,8 @@
   transition: 0.2s ease-in-out;
 }
 .transportContentFive {
-  width: 302px;
-  height: 410px;
+  width: 240px;
+  height: 310px;
   background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.8),
@@ -445,17 +455,17 @@
 #gradientImg {
   background: url(../img/Gradient-Background-img.png) no-repeat;
   width: 100%;
-  min-height: 60vh;
+  min-height: 50vh;
   background-position: center;
   background-size: cover;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 /* END GRADIENT IMG SECTION  */
 
 /* START POTENTIAL SECTION  */
 #potential {
   width: 100%;
-  min-height: 80vh;
+  min-height: 90vh;
   background: linear-gradient(
     to right,
     rgb(9, 18, 66) 50%,
@@ -463,8 +473,9 @@
   );
   margin-bottom: 70px;
   display: flex;
-  align-items: center;
-  align-content: center;
+  align-items: center !important;
+  align-content: center !important;
+  justify-content: center;
 }
 .potentialAirbusImg {
   position: relative;
@@ -477,8 +488,8 @@
   bottom: 0;
   left: 50%;
   transform: translate(-50%);
-  width: 350px;
-  height: 100px;
+  width: 300px;
+  height: 80px;
   background-color: #ffb629;
   display: flex;
   align-items: center;
@@ -493,9 +504,10 @@
   align-content: center;
   gap: 10px;
 }
+
 .potentialBtnText a {
   font-family: var(--primary-font-Rubik);
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   font-weight: 400;
   color: var(--common-black);
@@ -508,43 +520,56 @@
   padding: 5px 10px;
   font-family: var(--primary-font-Rubik);
   font-weight: 400;
-  margin-top: 20px;
+  font-size: 15px ;
 }
 .potentialTextIcon h2 {
   font-family: var(--primary-font-Rubik);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: var(--semibold);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .potentialText2 {
   font-family: var(--secondary-font-Krub);
-  font-size: 16px;
+  font-size: 14px;
   color: var(--Paragraph-Font-color);
   font-weight: 500;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
-.PotentialIcon i {
-  background: linear-gradient(to right, var(--Gradiant-color));
+
+.potentialIconParent{
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(to right, var(--Gradiant-color)) ;
   border-radius: 50%;
-  padding: 20px;
-  font-size: 20px;
-  color: var(--common-black);
-  margin-bottom: 25px;
-  margin-right: 10px;
-  transition: 0.5s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+ 
 }
-.PotentialIcon i:hover {
-  /* background-color: red !important; */
+.potentialIcon{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
 }
-.PotentialIcon a {
-  text-decoration: none;
-  font-size: 20px;
+
+
+.potentialIcon a {
+  text-decoration: none !important;
+  font-size: 18px;
   font-family: var(--primary-font-Rubik);
   font-weight: 400;
   color: var(--common-black);
   cursor: pointer;
+  transition: .2s ease-in-out;
 }
+.potentialIcon a:hover {
+  color: var(--primary-color-1);
+}
+
+
 .potentialIconWrapper {
   display: flex;
   align-items: center;
@@ -571,13 +596,13 @@
   }
   .potentialBtnText a {
     font-family: var(--primary-font-Rubik);
-    font-size: 15px;
+    font-size: 14px !important;
     text-decoration: none;
     font-weight: 400;
     color: var(--common-black);
   }
   .potentialMultiIcon img {
-    width: 40px;
+    width: 30px;
   }
 }
 
@@ -594,7 +619,7 @@
 /* START FORM SECTION  */
 #form {
   width: 100%;
-  min-height: 100vh;
+  min-height: 125vh;
   background-color: var(--secondary-navy);
   margin-bottom: 50px;
   display: flex;
@@ -610,16 +635,17 @@
   font-family: var(--primary-font-Rubik);
   font-weight: 400;
   margin-top: 20px;
+  font-size: 14px ;
 }
 .formHeadingText h2 {
   font-family: var(--primary-font-Rubik);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: var(--semibold);
   color: var(--common-white);
 }
 .formP2 {
   font-family: var(--secondary-font-Krub);
-  font-size: 16px;
+  font-size: 14px;
   color: var(--common-white);
   font-weight: 500;
   margin-bottom: 20px;
@@ -629,7 +655,7 @@
 .fromIcon i {
   background: rgb(18, 33, 106);
   border-radius: 50%;
-  padding: 20px 21px;
+  padding: 15px;
   font-size: 20px;
   color: var(--primary-color-1);
   margin-right: 10px;
@@ -642,12 +668,13 @@
   color: var(--common-black);
 }
 .fromIcon a {
-  text-decoration: none;
+  text-decoration: none !important;
   font-family: var(--primary-font-Rubik);
   font-weight: 400;
   color: var(--common-white);
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  font-size: 14px ;
 }
 .fromIcon a:hover {
   color: var(--primary-color-1);
@@ -681,25 +708,32 @@ textarea:focus {
 
 textarea::placeholder {
   color: var(--common-white) !important;
+  font-family: var(--secondary-font-Krub) !important;
 }
 form input::placeholder {
   font-size: 16px !important;
   color: var(--common-white) !important;
+ 
 }
 form input {
   border-radius: 2px !important;
   background-color: transparent !important;
   border: solid 2px rgb(28, 39, 97) !important;
   color: var(--common-white) !important;
+  font-family: var(--secondary-font-Krub) !important;
+}
+
+.formInput::placeholder{
+  font-family: var(--secondary-font-Krub) !important;
 }
 
 .formBtn button {
-  padding: 15px 25px;
-  margin-top: 35px;
+  padding: 10px 20px;
+  margin-top: 20px;
   background: linear-gradient(to right, #ffb629, #ffda56);
   font-family: var(--secondary-font-Krub);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 2px;
   border: none;
   transition: 0.5s ease-in-out;
@@ -713,50 +747,66 @@ form input {
 .formImgOne {
   background: linear-gradient(
       to top,
-      rgba(24, 27, 69, 0.4) 2%,
+      rgba(24, 27, 69, 0.8) 2%,
       rgba(0, 0, 0, 0.1)
     ),
     url(../img/form-crain-img.jpg) no-repeat;
-  width: 300px;
-  height: 250px;
+  width: 270px;
+  height: 220px;
   background-position: center;
   background-size: contain;
+  display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 .formImgTwo {
   background: linear-gradient(
       to top,
-      rgba(24, 27, 69, 0.4) 2%,
+      rgba(24, 27, 69, 0.8) 2%,
       rgba(0, 0, 0, 0.1)
     ),
     url(../img/form-wild-imgOne.jpg) no-repeat;
-  width: 300px;
-  height: 250px;
+  width: 270px;
+  height: 220px;
   background-position: center;
   background-size: contain;
+  display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 .formImgThree {
   background: linear-gradient(
       to top,
-      rgba(24, 27, 69, 0.4) 2%,
+      rgba(24, 27, 69, 0.8) 2%,
       rgba(0, 0, 0, 0.1)
     ),
     url(../img/form-airbus-img.jpg) no-repeat;
-  width: 300px;
-  height: 250px;
+  width: 270px;
+  height: 220px;
   background-position: center;
   background-size: contain;
+  display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 .formImgFour {
   background: linear-gradient(
       to top,
-      rgba(24, 27, 69, 0.4) 2%,
+      rgba(24, 27, 69, 0.8) 2%,
       rgba(0, 0, 0, 0.1)
     ),
-    url(../img/form-wild-img2.jpg) no-repeat;
-  width: 300px;
-  height: 250px;
+    url(../img/form-wild-img2.jpg) no-repeat ;
+  width:270px;
+  height: 220px;
   background-position: center;
   background-size: contain;
+  display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .formImgWrapper {
@@ -764,7 +814,7 @@ form input {
   align-items: center;
   justify-content: center;
   align-content: center;
-  margin: 50px 0px;
+  margin: 20px 0px;
   flex-wrap: wrap;
 }
 
@@ -779,6 +829,7 @@ form input {
     width: 100%;
     margin: 20px 5px;
     background-position: center;
+    
   }
   .formImgTwo {
     background: linear-gradient(
@@ -843,11 +894,11 @@ form input {
   padding: 5px 10px;
   font-family: var(--primary-font-Rubik);
   font-weight: 400;
-  margin-top: 20px;
+  font-size: 14px;
 }
 .blogHeadingText h2 {
   font-family: var(--primary-font-Rubik);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: var(--semibold);
   margin-bottom: 20px;
 }
@@ -855,12 +906,18 @@ form input {
   text-decoration: none;
   font-family: var(--secondary-font-Krub);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--common-black);
 }
 
+.blogText h2 {
+  font-size: 20px;
+  font-family: var(--secondary-font-Krub);
+  font-weight: 600;
+}
+
 .blogText {
-  padding: 20px 30px;
+  padding: 20px 50px;
   border-left: solid 1px rgb(221, 221, 221);
 }
 
@@ -869,9 +926,6 @@ form input {
   padding: 0px 15px;
 }
 
-.blogText p {
-  padding: 10px 0px;
-}
 
 .blogSecondColumn {
   display: flex;
@@ -896,7 +950,7 @@ form input {
   margin-top: 20px;
 }
 .blogimgWrapper2 img {
-  width: 50px;
+  width: 70px;
 }
 
 @media screen and (max-width: 768px) {

@@ -52,19 +52,19 @@
 }
 .teamHeadingText h2 {
   font-family: var(--primary-font-Rubik);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: var(--semibold);
 }
 .teamCardTitle {
   font-family: var(--primary-font-Rubik);
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   color: var(--common-white);
   margin-top: 35px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 .teamCardTitle a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: var(--common-white);
   transition: 0.5s ease-in-out;
 }
@@ -74,28 +74,30 @@
 
 .teamCardText {
   font-family: var(--secondary-font-Krub);
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--common-white);
   margin: 0;
   padding: 0;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 .teamCardBody {
   background: rgba(28, 31, 53, 1);
+  margin: 0 !important;
+  padding: 10px !important;
 }
 .teamSocialIcon {
-  width: 200px;
+  min-width: 100px;
   background: linear-gradient(to top, #ffb629, #ffda56, #ffd7a6);
   text-align: center;
-  padding: 15px;
-  float: right;
-  margin-top: -48px;
-  margin-right: -17px;
-}
-.teamSocialIcon a {
-  font-size: 20px;
   padding: 10px;
+  float: right;
+  margin-top: -39px;
+  margin-right: -10px;
+}
+.teamSocialIcon a  {
+  font-size: 20px;
+  padding: 0px 10px;
   cursor: pointer;
 }
 .teamCardWrapper {
