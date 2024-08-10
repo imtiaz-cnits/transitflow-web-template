@@ -40,10 +40,10 @@
 
 #footer {
   width: 100%;
-  min-height: 50vh;
+  min-height: 40vh;
   background-color: var(--secondary-navy);
   display: flex;
-  align-items: center;
+  align-items: start;
   align-content: center;
   padding-bottom: 50px;
 }
@@ -67,14 +67,11 @@
   color: var(--common-white);
   text-align: start;
 }
-/* 
+
     .mpNone{
-        
-        display: flex;
-        align-items: start;
-        align-content: center;
-        flex-direction: column;
-    } */
+       margin: 0 !important;
+       padding: 0 !important;
+    }
 /* end  footer header  section  */
 
 /* main footer section  */

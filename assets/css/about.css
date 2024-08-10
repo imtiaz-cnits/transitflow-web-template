@@ -67,7 +67,7 @@
   .globalP2 {
     font-family: var(--secondary-font-Krub);
     font-size: 14px;
-    color: var(--Paragraph-Font-color);
+    color: #5b617e;
     font-weight: 500;
     margin-bottom: 20px;
   }
@@ -349,12 +349,10 @@ line-height: normal;
 #Pricing{
     width: 100%;
     min-height:110vh ;
-    margin-bottom: 50px ; 
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin-bottom: 50px ;
 }
 .PricingHeadingWrapper{
     text-align: center;
@@ -517,5 +515,285 @@ line-height: normal;
   }
 }
 
-
 /* END ABOUT PRICING SECITON */
+
+/* START FAQ SECITON */
+#frequent{
+  width: 100%;
+  min-height:60vh;
+  background: #e2e2e2;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 30px ;
+}
+
+
+.frequentFirstParagraph {
+  display: inline-block;
+  border-left: 6px solid var(--primary-color-1);
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: var(--semibold);
+  color: var(--common-black);
+  background-color: rgba(226, 226, 226, 0.8);
+  font-family: var(--secondary-font-Krub);
+}
+.frequentHeading h1 {
+  font-size: 30px;
+  font-weight: bold !important;
+  color: var(--common-black);
+  font-family: var(--primary-font-Rubik) !important;
+  line-height: 45px;
+}
+.FAQaccordion{
+  background: rgba(226, 226, 226, 0.8) ;
+}
+.FAQaccordionbody{
+  background-color: rgba(226, 226, 226, 0.8);
+}
+.accordion-button:not(.collapsed) {
+background-color: var(--primary-color-1) !important;
+border: none !important;
+outline: none !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+  border: none;
+  outline: none;
+}
+.accordion-button{
+  font-family: var(--secondary-font-Krub) !important;
+  font-size: 16px  !important;
+  font-weight: 500;
+}
+
+/* start second column  */
+.secondImgWrapper img{
+ margin-left: 250px ;
+}
+
+.frequentSecondParagraph {
+  display: inline-block;
+  border-left: 6px solid var(--primary-color-1);
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: var(--semibold);
+  color: var(--common-white);
+  background-color: rgba(52, 47, 122, 0.8);
+  font-family: var(--secondary-font-Krub);
+}
+.frequentSecondHeading h1 {
+  color: var(--common-white);
+font-family: var(--primary-font-Rubik);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+.listLogo a {
+  text-decoration: none;
+  font-family: var(--secondary-font-Krub);
+  font-weight: 500;
+  color: var(--common-white);
+  transition: .3s ease-in-out;
+}
+.listLogo a:hover {
+  color: var(--primary-color-1);
+}
+.secondColumnBtn button {
+  width: 150px !important;
+  height: 50px !important;
+}
+.secondColumnBtn span {
+  font-size: 14px !important;
+}
+.secondColumnWrapper{
+  position: relative;
+}
+.frequentSecondHeadingWrapper{
+  display: flex;
+  align-items: start;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 30px 50px ;
+  gap: 5px ;
+  width: 400px ;
+  background: #091242;
+  border-radius: 4px ;
+  position: absolute;
+  top: 22%;
+  left: 40px;
+}
+.secondImgWrapper img{
+  width: 100%;
+  height: auto;
+}
+
+.copyHeadingWrapper{
+  background: #091242;
+  padding: 25px 15px ;
+  display: none;
+ 
+}
+.customizeUniqBtnWrapper{
+  display: flex;
+  align-items: start;
+}
+
+
+@media screen and (max-width:1200px) {
+  .secondImgWrapper img{
+    margin: 0px ;
+    width: 100% !important;
+    height: 100%;
+   }
+   .secondColumnWrapper{
+    margin-top: 40px ;
+   }
+
+   .frequentSecondHeadingWrapper{
+    display: none;
+   }
+   .secondColumn{
+    width: 100%;
+   }
+   .copyHeadingWrapper{
+    display: block;
+    margin-top: 20px;
+   }
+
+   .frequentHeadingWrapper{
+    text-align: center;
+   }
+   
+}
+
+/* END FAQ SECITON */
+
+/* START NORTO SECITON  */
+#Norto{
+    width: 100%;
+    min-height: 40vh;
+    background-color: var(--common-white);
+    margin-bottom: 30px ;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+/* start copy */
+
+.formImgOne {
+  background: linear-gradient(
+      to top,
+      rgba(24, 27, 69, 0.8) 2%,
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(../img/form-crain-img.jpg) no-repeat;
+  width: 270px;
+  height: 220px;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.formImgTwo {
+
+  width: 270px;
+  height: 220px;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(87, 87, 87);
+    margin: 20px 0px;
+}
+.formImgThree {
+
+  width: 270px;
+  height: 220px;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(87, 87, 87);
+    margin: 20px 0px;
+}
+.formImgFour {
+  width:270px;
+  height: 220px;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(87, 87, 87);
+    margin: 20px 0px;
+}
+
+.formImgWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .formImgOne {
+    background: linear-gradient(
+        to top,
+        rgba(24, 27, 69, 0.4) 2%,
+        rgba(0, 0, 0, 0.1)
+      ),
+      url(../img/form-crain-img.jpg) no-repeat;
+    width: 100%;
+    margin: 20px 5px;
+    background-position: center;
+    
+  }
+  .formImgTwo {
+    
+    width: 100%;
+    margin: 20px 5px;
+    background-position: center;
+  }
+  .formImgThree {
+    width: 100%;
+    margin: 20px 5px;
+    background-position: center;
+  }
+
+  .formImgFour {
+    width: 100%;
+    margin: 20px 5px !important;
+    background-position: center;
+  }
+
+  .formBtn {
+    text-align: center;
+  }
+}
+
+/* end copy */
+
+
+/* END NORTO SECITON  */

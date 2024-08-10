@@ -463,7 +463,7 @@
 /* START POTENTIAL SECTION  */
 #potential {
   width: 100%;
-  min-height: 90vh;
+  min-height: 70vh;
   background: linear-gradient(
     to right,
     rgb(9, 18, 66) 50%,
