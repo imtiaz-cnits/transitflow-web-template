@@ -602,6 +602,9 @@
   .potentialMultiIcon img {
     width: 30px;
   }
+  .me-2{
+    margin: 0 !important;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -952,8 +955,8 @@ form input {
 }
 .blogimgWrapper .img2{
   position: absolute;
-  left: 0;
-  bottom: 0;
+  right: 0;
+  bottom: -2px;
   width: 60px;
   background-color: white;
   padding: 5px;
@@ -962,9 +965,7 @@ form input {
 
 
 @media screen and (max-width: 768px) {
-  .blogimgWrapper img {
-  }
-
+  
   .blogimgWrapper2 img {
     display: none !important;
   }
@@ -978,6 +979,7 @@ form input {
   .blogimgWrapper .img2{
     display: block;
   }
+  
 }
 
 /* END BLOG SECTION */
