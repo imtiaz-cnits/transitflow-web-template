@@ -39,7 +39,7 @@
   background-color: var(--primary-color-2);
   padding: 30px;
 }
-.listLogo .headerIconParent  {
+.listLogo .headerIconParent {
   font-size: 30px;
   color: rgb(255, 255, 255);
   border-radius: 50%;
@@ -48,15 +48,14 @@
   border: var(--icon-border);
   color: var(--primary-color-1);
   width: 50px;
-  height: 50px ;
+  height: 50px;
 }
 
-
-.headerIconParent  {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+.headerIconParent {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .listLogo {
@@ -105,9 +104,14 @@
 
 /* START NAVBAR SECTION  */
 nav {
-  background: url(../img/Home-heroSection-Photo.webp) no-repeat;
+  background: linear-gradient(
+      to right,
+      rgba(3, 45, 95, 1),
+      rgba(9, 18, 66, 0.2)
+    ),
+    url(../../img/team/team-section-hero-img.png) no-repeat;
   width: 100%;
-  min-height: 100vh;
+  min-height: 50vh !important;
   background-position: center;
   background-size: cover;
 }
@@ -121,7 +125,6 @@ nav {
   font-family: var(--secondary-font-Krub);
   font-weight: var(--semibold);
   transition: 0.2s ease-in-out;
-
   padding: 20px;
 }
 .navContentOne ul li a:hover {
@@ -140,7 +143,7 @@ nav {
   border: none;
 }
 .navContentOne ul {
-  /* display: flex; */
+  display: flex;
   align-items: center;
   align-content: center;
   margin-top: 15px;
@@ -258,7 +261,7 @@ nav {
 /* start hero section  */
 #hero {
   width: 100%;
-  min-height: 90vh;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   align-content: center;
@@ -303,11 +306,9 @@ nav {
   }
   .heroHeading h1 {
     line-height: 50px;
-    margin: 10px 0px;
+    margin: 0px 0px;
   }
-  .heroSecondParagraph {
-    margin: 10px 0px;
-  }
+  
 }
 /* end hero section  */
 
@@ -327,7 +328,7 @@ nav {
 }
 
 .offcanvasContentOne ul {
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
