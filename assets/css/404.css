@@ -73,17 +73,24 @@ font-weight: 500;
 line-height: 151.523%; 
 }
 .ErorrWrapper button a {
-  background: linear-gradient(to right, #ffb629, #ffda56, #ffd7a6 );
+  background: var(--primary-color-1);
   text-decoration: none ;
   padding: 12px 25px ;
   display: block;
-  color: var(--common-black);
+  color: var(--primary-color-2);
   font-family: var(--secondary-font-Krub);
   font-weight: 600;
+  transition: .2s ease-in-out;
+  border: 2px solid var(--primary-color-1);
+  
+}
+.ErorrWrapper button:hover a {
+    background-color: var(--primary-color-2) !important;
+    color: var(--common-white) !important;
+    border: 2px solid var(--primary-color-1);
   
 }
 .ErorrWrapper button  {
-  
   border: none !important;
 }
 
