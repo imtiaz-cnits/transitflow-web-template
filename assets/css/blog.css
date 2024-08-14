@@ -75,6 +75,7 @@ margin: 0;
 .projectImg .img3{
   width: 70px;
   height: auto;
+  margin-top: 30px;
 }
 .projectColWrapper{
   position: relative;

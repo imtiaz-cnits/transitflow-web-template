@@ -266,7 +266,7 @@
   font-weight: var(--semibold);
   margin-bottom: 15px;
   text-align: center;
-  margin: 30px 0px;
+  padding-bottom: 20px ;
 }
 .transportContentOne {
   width: 240px;
@@ -451,9 +451,9 @@
 
 /* START GRADIENT IMG SECTION  */
 #gradientImg {
-  background: url(../img/Gradient-Background-img.png) no-repeat;
+  background: var(--primary-color-1);
   width: 100%;
-  min-height: 50vh;
+  min-height: 40vh;
   background-position: center;
   background-size: cover;
   margin-bottom: 20px;
@@ -697,13 +697,13 @@ textarea {
 }
 form input:focus {
   box-shadow: 1px 1px 10px rgb(14, 22, 64) !important;
-  outline: 1px solid rgb(7, 28, 136) !important;
+  outline: 1px solid rgb(255, 255, 255) !important;
   color: var(--common-white) !important;
 }
 
 textarea:focus {
   box-shadow: 1px 1px 10px rgb(14, 22, 64) !important;
-  outline: 1px solid rgb(7, 28, 136) !important;
+  outline: 1px solid rgb(255, 255, 255) !important;
   color: var(--common-white);
 }
 
@@ -996,7 +996,7 @@ form input {
 /* END CRAIN-SHIPMENT-SEA SECTION */
 
 
-/* add  */
+/* relaible add here  */
 
 .relaibleText h4 a {
   font-family: var(--primary-font-Rubik);
@@ -1011,7 +1011,7 @@ form input {
   
   color: var(--primary-color-1) !important;
 }
-
+/* global add here  */
 .globalDelivaryIcon a {
   transition: .2s ease-in-out;
 }
@@ -1019,5 +1019,22 @@ form input {
   color: var(--primary-color-1) !important;
 }
 
-/* counter */
+/* counter connect javascript */
 
+/* ⁡⁢⁣⁣1- jquary cdn link add 
+2- javascript add
+3- javascript link add 
+4- footer section a javascript text add 
+5- counter class add ⁡ */
+
+/* transport add here  */
+
+@media screen and (max-width:1200px) {
+  #transport {
+    width: 100%;
+    min-height: 600px;
+    background-color: var(--primary-color-1) !important ;
+    margin-top: 60px;
+    margin-bottom: -330px;
+  }
+}

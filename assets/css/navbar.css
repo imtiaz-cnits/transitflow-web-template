@@ -461,7 +461,6 @@ nav {
   color: var(--primary-color-2) !important;
 }
 .indexDropdownMenu .dItem{
-  /* backdrop-filter: blur(30px ); */
   background-color: transparent !important;
 }
 .indexDropdownMenu .dItem:hover{
@@ -474,8 +473,11 @@ nav {
   .indexDropdownMenu .dItem{
     background-color: var(--primary-color-1) !important;
     color:var(--primary-color-2) !important;
+    backdrop-filter: blur(0px) !important;
+    font-weight: normal !important;
   }
   .indexDropdownMenu{
+    
     background-color: var(--primary-color-2) !important;
     min-width:209px ;
     color: var(--primary-color-2) !important;

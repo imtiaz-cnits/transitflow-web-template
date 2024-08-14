@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./assets/css/team.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/uniqBtn.css" />
+    <link rel="stylesheet" href="./assets/css/blog.css">
     <script
       src="https://kit.fontawesome.com/07611e5823.js"
       crossorigin="anonymous"
@@ -43,6 +44,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
     <!-- carouselSlider -->
+
+    <!-- start Jquary CDN-Link -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- end Jquary CDN-Link -->
 
   </head>
 
@@ -471,7 +476,7 @@
           <div class="row counterWrapper">
             <div class="col-xl-6 p-0 m-0">
               <div class="CounterContent">
-                <h1>1294</h1>
+                <h1 class=" connectCssClass" >1294</h1>
                 <span
                   ><img src="./assets/img/global-gradient-img.png" alt=""
                 /></span>
@@ -481,7 +486,7 @@
 
             <div class="col-xl-6 p-0 m-0">
               <div class="CounterContent CounterContentTwo">
-                <h1>3594</h1>
+                <h1 class=" connectCssClass">3594</h1>
                 <span
                   ><img src="./assets/img/global-gradient-img.png" alt=""
                 /></span>
@@ -496,9 +501,9 @@
       <!-- START TRANSPORT SECTION  -->
        
       <section id="transport">
-        <div class="container-fluid">
+        <div class="container-fluid py-5 ">
           <div class="transportHeading">
-            <h2>Transporting Across The World</h2>
+            <h2 >Transporting Across The World</h2>
           </div>
 
           <div class="transportWrapper">
@@ -1273,122 +1278,265 @@
       </section>
       <!-- END FORM SECTION  -->
 
-      <!-- START BLOG SECTION  -->
-      <section id="Blog">
-        <div class="container px-2">
-          <div class="blogWrapper">
-            <div class="blogHeadingText text-center">
-              <p class="blogParagraphOne">Our Blog</p>
-              <h2>Our Latest News</h2>
-            </div>
-            <div class="blogContentWrapper">
-              <div class="row">
-                <div class="col-xl-5 py-3">
-                  <div class="blogColWrapper">
-                    <div class="blogimgWrapper">
-                      <img src="./assets/img/blog-container-img.png" alt="" />
-                      <img class="img2" src="./assets/img/blog-Date08-img.png" alt="" />
-                    </div>
-                  </div>
-                </div>
+     <!-- START BLOG SECTION  -->
+     <section id="blog">
+      <div class="container">
+        <div class="projectWrapper">
+          <div class="blogHeadingtext mt-5">
+            <p class="blogFirstParagraph">Blog</p>
+            <h1> Related Project </h1>
+          </div>
 
-                <div class="col-xl-7 blogSecondColumn py-3">
-                  <div class="blogimgWrapper2 me-3 ms-0">
-                    <img src="./assets/img/blog-Date08-img.png" alt="" />
-                  </div>
-                  <div class="blogText">
-                    <h2>Inland freight a worthy solution for your business</h2>
-                    <p>
-                      We are dedicated in creating added value for our customers
-                      by implementing modern technology in our work.
-                    </p>
-                    <ul>
-                      <li><a href="#"> Urgent transport solutions </a></li>
-                      <li><a href="#"> Reliable & experienced staffs</a></li>
-                      <li><a href="#"> Urgent transport solutions </a></li>
-                      <li><a href="#"> Reliable & experienced staffs </a></li>
-                    </ul>
+          <div class="row blogRowBorder py-2">                  
+            <div class="col-lg-6 my-4 blogColOne ">
+              <div class="projectColWrapper">
+                <div class="projectImg">
+                  <img class="img1" src="./assets/img/blog/blog-Photo-1.png" alt="">
+                  <div class="projectOpacity">
+                     <span> Read More  </span>
                   </div>
                 </div>
               </div>
             </div>
-            <!--  -->
-            <div class="blogContentWrapper">
-              <div class="row">
-                <div class="col-xl-5 py-3">
-                  <div class="blogColWrapper">
-                    <div class="blogimgWrapper text-end">
-                      <img src="./assets/img/blog-pakeging-img.png" alt="" />
-                      <img class="img2" src="./assets/img/blog-Date12-img.png" alt="" />
-                    </div>
-                  </div>
+            <!-- 2 -->
+            <div class="col-lg-1 mt-4 blogColTwo">
+              <div class="blogColWrapper1">
+                <div class="projectImg">
+                  <img class="img3" src="./assets/img/blog/Blog-Date-08.png" alt="">
+                  
                 </div>
+              </div>
+            </div>
 
-                <div class="col-xl-7 blogSecondColumn py-3">
-                  <div class="blogimgWrapper2 me-3 ms-0">
-                    <img src="./assets/img/blog-Date12-img.png" alt="" />
+            <div class="col-lg-5 my-4  blogColThree ">
+              <div class="blogColWrapper2">
+                <div class="projectImg">
+                  <div class="blogPtext1">
+                    <h1> <a href="#"> Inland freight a worthy solution for your business </a> </h1>
                   </div>
-                  <div class="blogText">
-                    <h2>Inland freight a worthy solution for your business</h2>
-                    <p>
-                      We are dedicated in creating added value for our customers
-                      by implementing modern technology in our work.
-                    </p>
-                    <ul>
-                      <li><a href="#"> Urgent transport solutions </a></li>
-                      <li><a href="#"> Reliable & experienced staffs</a></li>
-                      <li><a href="#"> Urgent transport solutions </a></li>
-                      <li><a href="#"> Reliable & experienced staffs </a></li>
-                    </ul>
+                  <div class="blogPtext2">
+                    <p>We are dedicated in creating added value for our customers by implementing modern technology in our work. </p>
+                  </div>
+                  <div class="blogTextList"> 
+                  <ul>
+                    <li><a href="#">Urgent transport solutions</a></li>
+                    <li><a href="#">Reliable & experienced staffs</a></li>
+                    <li><a href="#">Urgent transport solutions</a></li>
+                    <li><a href="#">Reliable & experienced staffs</a></li>
+                  </ul>
+                </div>
+                <div class="blogFooterimg">
+                  <img class="img" src="./assets/img/blog/Blog-Date-08.png" alt="">
+                  
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row2 -->
+          <div class="row blogRowBorder py-2 ">                  
+            <div class="col-lg-6 my-4 blogColOne ">
+              <div class="projectColWrapper">
+                <div class="projectImg">
+                  <img class="img1" src="./assets/img/blog/blog-Photo-2.png" alt="">
+                  <div class="projectOpacity">
+                    <span> Read More  </span>
                   </div>
                 </div>
               </div>
             </div>
-            <!--  -->
-
-            <div class="blogContentWrapper">
-              <div class="row">
-                <div class="col-xl-5 py-3">
-                  <div class="blogColWrapper">
-                    <div class="blogimgWrapper text-end">
-                      <img src="./assets/img/blog-shipmentSea-img.png" alt="" />
-                      <img class="img2" src="./assets/img/blog-Date25-img.png" alt="" />
-                    </div>
-                  </div>
+            <!-- 2 -->
+            <div class="col-lg-1 mt-4 blogColTwo">
+              <div class="blogColWrapper1">
+                <div class="projectImg">
+                  <img class="img3" src="./assets/img/blog/Blog-Date-12.png" alt="">
+                  
                 </div>
+              </div>
+            </div>
 
-                <div class="col-xl-7 blogSecondColumn py-3">
-                  <div class="blogimgWrapper2 me-3 ms-0">
-                    <img src="./assets/img/blog-Date25-img.png" alt="" />
+            <div class="col-lg-5 my-4  blogColThree ">
+              <div class="blogColWrapper2">
+                <div class="projectImg">
+                  <div class="blogPtext1">
+                    <h1> <a href="#"> Inland freight a worthy solution for your business </a> </h1>
                   </div>
-                  <div class="blogText">
-                    <h2>Inland freight a worthy solution for your business</h2>
-                    <p>
-                      We are dedicated in creating added value for our customers
-                      by implementing modern technology in our work.
-                    </p>
-                    <ul>
-                      <li><a href="#"> Urgent transport solutions </a></li>
-                      <li><a href="#"> Reliable & experienced staffs</a></li>
-                      <li><a href="#"> Urgent transport solutions </a></li>
-                      <li><a href="#"> Reliable & experienced staffs </a></li>
-                    </ul>
+                  <div class="blogPtext2">
+                    <p>We are dedicated in creating added value for our customers by implementing modern technology in our work. </p>
+                  </div>
+                  <div class="blogTextList"> 
+                  <ul>
+                    <li><a href="#">Urgent transport solutions</a></li>
+                    <li><a href="#">Reliable & experienced staffs</a></li>
+                    <li><a href="#">Urgent transport solutions</a></li>
+                    <li><a href="#">Reliable & experienced staffs</a></li>
+                  </ul>
+                </div>
+                <div class="blogFooterimg">
+                  <img class="img" src="./assets/img/blog/Blog-Date-12.png" alt="">
+                  
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row3 -->
+          <div class="row blogRowBorder py-2">                  
+            <div class="col-lg-6 my-4 blogColOne ">
+              <div class="projectColWrapper">
+                <div class="projectImg">
+                  <img class="img1" src="./assets/img/blog/blog-Photo-3.png" alt="">
+                  <div class="projectOpacity">
+                    <span> Read More  </span>
                   </div>
                 </div>
               </div>
             </div>
-            <!--  -->
+            <!-- 2 -->
+            <div class="col-lg-1 mt-4 blogColTwo">
+              <div class="blogColWrapper1">
+                <div class="projectImg">
+                  <img class="img3" src="./assets/img/blog/Blog-Date-25.png" alt="">
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 my-4  blogColThree ">
+              <div class="blogColWrapper2">
+                <div class="projectImg">
+                  <div class="blogPtext1">
+                    <h1> <a href="#"> Inland freight a worthy solution for your business </a> </h1>
+                  </div>
+                  <div class="blogPtext2">
+                    <p>We are dedicated in creating added value for our customers by implementing modern technology in our work. </p>
+                  </div>
+                  <div class="blogTextList"> 
+                  <ul>
+                    <li><a href="#">Urgent transport solutions</a></li>
+                    <li><a href="#">Reliable & experienced staffs</a></li>
+                    <li><a href="#">Urgent transport solutions</a></li>
+                    <li><a href="#">Reliable & experienced staffs</a></li>
+                  </ul>
+                </div>
+                <div class="blogFooterimg">
+                  <img class="img" src="./assets/img/blog/Blog-Date-25.png" alt="">
+                  
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row4 -->
+          <div class="row blogRowBorder py-2">                  
+            <div class="col-lg-6 my-4 blogColOne ">
+              <div class="projectColWrapper">
+                <div class="projectImg">
+                  <img class="img1" src="./assets/img/blog/blog-Photo-4.png" alt="">
+                  <div class="projectOpacity">
+                    <span> Read More  </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-lg-1 mt-4 blogColTwo">
+              <div class="blogColWrapper1">
+                <div class="projectImg">
+                  <img class="img3" src="./assets/img/blog/Blog-Date-28.png" alt="">
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 my-4  blogColThree ">
+              <div class="blogColWrapper2">
+                <div class="projectImg">
+                  <div class="blogPtext1">
+                    <h1> <a href="#"> Inland freight a worthy solution for your business </a> </h1>
+                  </div>
+                  <div class="blogPtext2">
+                    <p>We are dedicated in creating added value for our customers by implementing modern technology in our work. </p>
+                  </div>
+                  <div class="blogTextList"> 
+                  <ul>
+                    <li><a href="#">Urgent transport solutions</a></li>
+                    <li><a href="#">Reliable & experienced staffs</a></li>
+                    <li><a href="#">Urgent transport solutions</a></li>
+                    <li><a href="#">Reliable & experienced staffs</a></li>
+                  </ul>
+                </div>
+                <div class="blogFooterimg">
+                  <img class="img" src="./assets/img/blog/Blog-Date-28.png" alt="">
+                  
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row5 -->
+          <div class="row blogRowBorder py-2">                  
+            <div class="col-lg-6 my-4 blogColOne ">
+              <div class="projectColWrapper">
+                <div class="projectImg">
+                  <img class="img1" src="./assets/img/blog/blog-Photo-5.png" alt="">
+                  <div class="projectOpacity">
+                    <span> Read More  </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-lg-1 mt-4 blogColTwo">
+              <div class="blogColWrapper1">
+                <div class="projectImg">
+                  <img class="img3" src="./assets/img/blog/Blog-Date-30.png" alt="">
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 my-4  blogColThree ">
+              <div class="blogColWrapper2">
+                <div class="projectImg">
+                  <div class="blogPtext1">
+                    <h1> <a href="#"> Inland freight a worthy solution for your business </a> </h1>
+                  </div>
+                  <div class="blogPtext2">
+                    <p>We are dedicated in creating added value for our customers by implementing modern technology in our work. </p>
+                  </div>
+                  <div class="blogTextList"> 
+                  <ul>
+                    <li><a href="#">Urgent transport solutions</a></li>
+                    <li><a href="#">Reliable & experienced staffs</a></li>
+                    <li><a href="#">Urgent transport solutions</a></li>
+                    <li><a href="#">Reliable & experienced staffs</a></li>
+                  </ul>
+                </div>
+                <div class="blogFooterimg">
+                  <img class="img" src="./assets/img/blog/Blog-Date-30.png" alt="">
+                  
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+       
+
+        </div>
+      </div>
+     </section>
+    <!-- END BLOG SECTION  -->
 
             <div class="blogfooterBtn">
-              <div class="UniqSecondaryColorBtn mt-5">
+              <div class="UniqSecondaryColorBtn my-5">
                 <div class="UniqSecondaryColorBtn">
                   <button><span> More Blog</span></button>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
+         
       <!-- END BLOG SECTION  -->
       <!-- START CRAIN-SHIPMENT-SEA SECTION  -->
       <section id="shipmentSea">
@@ -1526,5 +1674,19 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+
+    <!-- ⁡⁢⁣⁢counter⁡ -->
+    <script src="./assets/JS/app.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    
+    <!--  -->
+    <script>
+        $('.connectCssClass').counterUp({
+            delay: 10,
+            time: 10000
+        });
+    </script>
+<!-- ⁡⁢⁣⁢counter ⁡⁢⁣⁢END⁡⁡ -->
+
   </body>
 </html>

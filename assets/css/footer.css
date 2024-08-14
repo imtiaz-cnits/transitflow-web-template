@@ -147,7 +147,7 @@
 }
 .footerColWrapper3 input:focus {
   border: solid 1px #1f2c78;
-  outline: solid 1px #4a57a1;
+  outline: solid 1px #ffffff;
 }
 
 .footerButton button {
@@ -274,3 +274,8 @@
   }
 }
 /* END COPYRIGHT SECTION  */
+
+/* add  */
+.footerColWrapper3 input {
+  color: white !important;
+}
