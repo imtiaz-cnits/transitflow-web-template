@@ -356,6 +356,7 @@ nav {
 }
 .ofcanvasContentTwo a i:hover {
   color: var(--primary-color-1) !important;
+  
 }
 .ofcanvasContentTwo {
   margin-top: 100px;
@@ -450,3 +451,37 @@ nav {
 /* end offcanvas css */
 
 /* END NAVBAR SECTION  */
+
+
+/* fixing css add */
+.indexDropdownMenu{
+  backdrop-filter: blur(100px );
+  background-color: transparent !important;
+  min-width: 200px ;
+  color: var(--primary-color-2) !important;
+}
+.indexDropdownMenu .dItem{
+  /* backdrop-filter: blur(30px ); */
+  background-color: transparent !important;
+}
+.indexDropdownMenu .dItem:hover{
+  background-color: var(--primary-color-1)!important;
+  padding:15px !important;
+  color: var(--primary-color-2) !important;
+}
+
+@media screen and (max-width:1200px) {
+  .indexDropdownMenu .dItem{
+    background-color: var(--primary-color-1) !important;
+    color:var(--primary-color-2) !important;
+  }
+  .indexDropdownMenu{
+    background-color: var(--primary-color-2) !important;
+    min-width:209px ;
+    color: var(--primary-color-2) !important;
+  }
+}
+.navContentTwo i:hover {
+  color: var(--primary-color-1);
+  transform: scale(1.3) !important;
+}

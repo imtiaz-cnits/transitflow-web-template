@@ -995,3 +995,29 @@ form input {
 
 /* END CRAIN-SHIPMENT-SEA SECTION */
 
+
+/* add  */
+
+.relaibleText h4 a {
+  font-family: var(--primary-font-Rubik);
+  font-weight: 400;
+  padding: 5px 0px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000000;
+  transition: .2s ease-in-out;
+}
+.relaibleText h4 a:hover {
+  
+  color: var(--primary-color-1) !important;
+}
+
+.globalDelivaryIcon a {
+  transition: .2s ease-in-out;
+}
+.globalDelivaryIcon a:hover {
+  color: var(--primary-color-1) !important;
+}
+
+/* counter */
+
