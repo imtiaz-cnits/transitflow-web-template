@@ -121,8 +121,11 @@ margin: 50px 0px 10px 0px ;
   text-decoration: none;
 }
 .shipmentIcon img:hover {
-  background: var(--primary-color-1);
-  border-radius: 50% ;
+  transition: .2s ease-in-out;
+}
+.shipmentIcon img:hover {
+  transform: scale(1.5) !important;
+  color: var(--primary-color-1) !important;
 }
 
 .shipmentImg img {
@@ -235,12 +238,14 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: 135.023%; 
-transition: .4s ease-in-out;
+transition: .3s ease-in-out;
+border: 2px solid var(--primary-color-1);
 }
 .helpContainer button:hover {
   height: auto;
-  background: linear-gradient(to right, #091242, #091975, #ffd7a6);
-  color: white !important;
+  background: var(--primary-color-2);
+  color:var(--primary-color-1) !important;
+  border: 2px solid var(--primary-color-1);
   
 }
 .touch{

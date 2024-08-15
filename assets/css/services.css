@@ -274,18 +274,7 @@ line-height: normal;
 
 /* END SERVICES SECITON */
 
-/* START ABOUT SLIDER SECITON */
-#Slider{
-    width: 100%;
-    height:400px ;
-    background-color: red;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin-bottom: 50px ;
-}
-/* END ABOUT SLIDER SECITON */
+
 
 
 /* ⁡⁢⁣⁣ADD CSS HERE ⁡ */
@@ -441,3 +430,24 @@ line-height: normal;
 
 /* END COUNTER COPY SECTION */
 /* END SERVICES COUNTER SECITON */
+
+.serviceCard .serviceAirbusImg{
+  width: 83px !important;
+  display: block !important;
+}
+
+.serviceCard{
+  background-color: #F4F4F4;
+  cursor: pointer;
+  border: none;
+  transition: .3s ease-in-out;
+  padding: 10px ;
+  height: 230px ;
+}
+
+.plusCounter {
+  font-weight: 900 !important;
+  font-size: 45px !important;
+  margin-top: -10px ;
+  margin-left: -15px ;
+}

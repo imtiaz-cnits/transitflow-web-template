@@ -88,9 +88,21 @@ display: inline;
 .protectionInput input {
   padding: 15px 50px  ;
   background-color:transparent;
+  border: solid 1px rgb(18, 58, 138);
+  color: white !important;
+}
+.protectionInput input:focus {
+  padding: 15px 50px  ;
+  background-color:transparent;
   border: solid 1px white;
   color: white !important;
 }
+
+.protectionInput input::placeholder {
+  color: white !important;
+}
+
+
 
 @media screen and (max-width:768px) {
   .changeContent{

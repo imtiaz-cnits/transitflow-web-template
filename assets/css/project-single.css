@@ -144,9 +144,16 @@ transition: .2s ease-in-out;
 .wharehouseP2 a:hover {
   color:var(--primary-color-1);
 }
+.wharehouseP2:hover img  {
+  color:var(--primary-color-1);
+  padding-left: 20px !important;
+ 
+}
 .wharehouseP2 img {
   padding: 0px 10px 0px 0px  ;
+  transition: .2s ease-in-out;
 }
+
 
 /* END WHAREHOUSE SECTION */
 

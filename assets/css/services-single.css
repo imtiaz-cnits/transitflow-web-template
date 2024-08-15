@@ -125,6 +125,10 @@ transition: .2s ease-in-out;
 }
 .benifitP2 img {
   padding: 0px 10px 0px 0px  ;
+  transition: .2s ease-in-out;
+}
+.benifitP2:hover img {
+  padding-left: 20px !important;
 }
 
 .benifitImgWrapper img {
