@@ -642,7 +642,21 @@
             crossorigin="anonymous"
         ></script>
 
-        <script src="./assets/JS/app.js"></script>
+        <!-- js for navbar  -->
+        <script>
+          let anyName = document.getElementById('navbarJs');
+window.onscroll = function (){
+    let scrollNav = window.scrollY;
+    if(scrollNav >=100){
+        anyName.classList.add('navbarScrollJsClass');
+    }
+    else{
+        anyName.classList.remove('navbarScrollJsClass');
+    }
+}
+         </script>
+
+         <!-- js for navbar  -->
 
     </body>
 </html>

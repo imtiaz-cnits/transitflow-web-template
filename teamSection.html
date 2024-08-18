@@ -99,7 +99,7 @@
         <div class="navContentOne">
           <ul class="nav nav-tabs">
             <li class="nav-item">
-              <a class="nav-link active" href="./index.html">Home</a>
+              <a class="nav-link " href="./index.html">Home</a>
             </li>
             <span class="px-3">|</span>
             <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
@@ -109,7 +109,7 @@
 
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle active"
                 data-bs-toggle="dropdown"
                 href="#"
                 >Pages</a
@@ -186,7 +186,7 @@
             <div class="offcanvasContentOne">
               <ul class="nav nav-tabs">
                 <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Home</a>
+                  <a class="nav-link " href="index.html">Home</a>
                 </li>
 
                 <li class="nav-item">
@@ -197,7 +197,7 @@
 
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle active"
                 data-bs-toggle="dropdown"
                 href="#"
                 >Pages</a
@@ -652,6 +652,21 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
-         <script src="./assets/JS/app.js"></script>
+
+        <!-- js for navbar  -->
+         <script>
+          let anyName = document.getElementById('navbarJs');
+window.onscroll = function (){
+    let scrollNav = window.scrollY;
+    if(scrollNav >=100){
+        anyName.classList.add('navbarScrollJsClass');
+    }
+    else{
+        anyName.classList.remove('navbarScrollJsClass');
+    }
+}
+         </script>
+
+         <!-- js for navbar  -->
     </body>
 </html>
