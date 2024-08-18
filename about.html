@@ -22,7 +22,7 @@
       crossorigin="anonymous"
     ></script>
         <link rel="stylesheet" href="./assets/css/about.css">
-        <link rel="stylesheet" href="./assets/css/others/aboutNavbar.css">
+        <link rel="stylesheet" href="./assets/css/navbar.css">
         <link rel="stylesheet" href="./assets/css/uniqBtn.css">
         <link rel="stylesheet" href="./assets/css/team.css">
         <link rel="stylesheet" href="./assets/css/footer.css">
@@ -109,191 +109,157 @@
   </header>
   <!-- END HEADER SECTION  -->
 
-  <!-- START NAVBAR SECTION  -->
-  <nav>
-    <section id="navbar">
-      <div class="container">
-        <div class="navWrapper">
-          <div class="navContentOne">
-            <ul class="nav nav-tabs">
-              <li class="nav-item">
-                <a class="nav-link " href="./index.html">Home</a>
-              </li>
-              <span class="px-3">|</span>
-              <li class="nav-item"><a class="nav-link active " href="./about.html">About</a></li>
-              <span class="px-3">|</span>
+ <!-- START NAVBAR SECTION  -->
+ <nav id="navbarJs">
+  <section id="navbar">
+    <div class="container">
+      <div class="navWrapper">
+        <div class="navContentOne">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link " href="./index.html">Home</a>
+            </li>
+            <span class="px-3">|</span>
+            <li class="nav-item"><a class="nav-link active" href="./about.html">About</a></li>
+            <span class="px-3">|</span>
 
-              <!-- change here fixing Dropdown  -->
+            <!-- change here fixing Dropdown  -->
 
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  >Pages</a
-                >
-                <ul class="dropdown-menu indexDropdownMenu offcanvasDrop ">
-                  
-                  <li><a class="dropdown-item dItem" href="./teamSection.html">Team</a></li>
-                  <li><a class="dropdown-item dItem" href="./pricing.html">Pricing</a></li>
-                  <li><a class="dropdown-item dItem" href="./404.html">404</a></li>
-                  <li><a class="dropdown-item dItem" href="./changeLog.html">Change-Log</a></li>
-                  <li><a class="dropdown-item dItem" href="./liecenses.html">Liecenses</a></li>
-                  <li><a class="dropdown-item dItem" href="./protection.html">Protection</a></li>
-                </ul>         
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                >Pages</a
+              >
+              <ul class="dropdown-menu indexDropdownMenu ">
+                
+                <li><a class="dropdown-item dItem" href="teamSection.html">Team</a></li>
+                <li><a class="dropdown-item dItem" href="services.html">Service</a></li>
+                <li><a class="dropdown-item dItem" href="blog.html">Blog</a></li>
+                <li><a class="dropdown-item dItem" href="./pricing.html">Pricing</a></li>
+                <li><a class="dropdown-item dItem" href="./404.html">404</a></li>
+              </ul>         
 
-              </li>
-              
-              <span class="px-3">|</span>
+            </li>
+            <span class="px-3">|</span>
 
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  >Project</a
-                >
-                <ul class="dropdown-menu indexDropdownMenu offcanvasDrop ">
-                  
-                  <li><a class="dropdown-item dItem" href="project.html">Project</a></li>
-                  <li><a class="dropdown-item dItem" href="project-single.html">Project-Single</a></li>
-                  <li><a class="dropdown-item dItem" href="services.html">Service</a></li>
-                  <li><a class="dropdown-item dItem" href="services-single.html">Service-Single</a></li>
-                  <li><a class="dropdown-item dItem" href="blog.html">Blog</a></li>
-                  <li><a class="dropdown-item dItem" href="blog-single.html">Blog-Single</a></li>
-                </ul>         
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">Project</a>
+            </li>
+            
+            <!-- change here fixing Dropdown  -->
 
-              </li>
-
-              <!-- change here fixing Dropdown  -->
-              <span class="px-3">|</span>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="navContentTwo">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <div class="navbarButton">
-              <a href="#" class="text-decoration-none"> Request Quote </a>
-            </div>
-          </div>
-
-          <!-- START NAVBAR OFFCANVAS SECITON  -->
-          <div class="offwrapper">
-            <div class="offcanvasLogo">
-              <img src="./assets/icons/TransitFlow-main-Logo.svg" alt="" />
-            </div>
-            <button
-              class="btn ofcanvasBurgerBtn"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasRight"
-              aria-controls="offcanvasRight"
-            >
-              <i class="fa-solid fa-bars"></i>
-            </button>
-          </div>
-
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasRight"
-            aria-labelledby="offcanvasRightLabel"
-          >
-            <div class="offcanvas-header shadow">
-              <img src="./assets/icons/TransitFlow-main-Logo.svg" alt="" />
-
-              <button
-                type="button"
-                class="btn-close text-reset"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <!--  -->
-              <div class="offcanvasContentOne">
-                <ul class="nav nav-tabs">
-                  <li class="nav-item">
-                    <a class="nav-link " href="#">Home</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">About</a>
-                  </li>
-
-                  <!-- dropdown -->
-                  <!-- change here fixing Dropdown  -->
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  >Pages</a
-                >
-                <ul class="dropdown-menu indexDropdownMenu offcanvasDrop ">
-                  
-                  <li><a class="dropdown-item dItem" href="./teamSection.html">Team</a></li>
-                  <li><a class="dropdown-item dItem" href="./pricing.html">Pricing</a></li>
-                  <li><a class="dropdown-item dItem" href="./404.html">404</a></li>
-                  <li><a class="dropdown-item dItem" href="./changeLog.html">Change-Log</a></li>
-                  <li><a class="dropdown-item dItem" href="./liecenses.html">Liecenses</a></li>
-                  <li><a class="dropdown-item dItem" href="./protection.html">Protection</a></li>
-                </ul>         
-
-              </li>
-              
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  >Project</a
-                >
-                <ul class="dropdown-menu indexDropdownMenu offcanvasDrop ">
-                  
-                  <li><a class="dropdown-item dItem" href="project.html">Project</a></li>
-                  <li><a class="dropdown-item dItem" href="project-single.html">Project-Single</a></li>
-                  <li><a class="dropdown-item dItem" href="services.html">Service</a></li>
-                  <li><a class="dropdown-item dItem" href="services-single.html">Service-Single</a></li>
-                  <li><a class="dropdown-item dItem" href="blog.html">Blog</a></li>
-                  <li><a class="dropdown-item dItem" href="blog-single.html">Blog-Single</a></li>
-                </ul>         
-
-              </li>
-
-              <!-- change here fixing Dropdown  -->
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
-              <!--  -->
-
-              <div class="ofcanvasContentTwo">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <div class="ofcanvasButton">
-                  <a href="#"> Request Quote </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- END NAVBAR OFFCANVAS SECITON  -->
+            <span class="px-3">|</span>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
+
+        <div class="navContentTwo">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <div class="navbarButton">
+            <a href="#" class="text-decoration-none"> Request Quote </a>
+          </div>
+        </div>
+
+        <!-- START NAVBAR OFFCANVAS SECITON  -->
+        <div class="offwrapper">
+          <div class="offcanvasLogo">
+            <img src="./assets/icons/TransitFlow-main-Logo.svg" alt="" />
+          </div>
+          <button
+            class="btn ofcanvasBurgerBtn"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+        >
+          <div class="offcanvas-header shadow">
+            <img src="./assets/icons/TransitFlow-main-Logo.svg" alt="" />
+
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <!--  -->
+            <div class="offcanvasContentOne">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="about.html">About</a>
+                </li>
+
+                <!-- change here fixing Dropdown  -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                >Pages</a
+              >
+              <ul class="dropdown-menu indexDropdownMenu ">
+                
+                <li><a class="dropdown-item dItem" href="teamSection.html">Team</a></li>
+                <li><a class="dropdown-item dItem" href="services.html">Service</a></li>
+                <li><a class="dropdown-item dItem" href="blog.html">Blog</a></li>
+                <li><a class="dropdown-item dItem" href="./pricing.html">Pricing</a></li>
+                <li><a class="dropdown-item dItem" href="./404.html">404</a></li>
+              </ul>         
+
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">Project</a>
+            </li>
+            
+            <!-- change here fixing Dropdown  -->
+                <!--  -->
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!--  -->
+
+            <div class="ofcanvasContentTwo">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <div class="ofcanvasButton">
+                <a href="#"> Request Quote </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END NAVBAR OFFCANVAS SECITON  -->
       </div>
-    </section>
+    </div>
+  </section>
+</nav>
     <!-- start hero section  -->
     <section id="hero">
       <div class="container">
@@ -309,7 +275,6 @@
       </div>
     </section>
     <!-- end hero section  -->
-  </nav>
   <!-- END NAVBAR SECTION  -->
 
         <main>
@@ -1447,5 +1412,6 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+        <script src="./assets/JS/app.js"></script>
     </body>
 </html>

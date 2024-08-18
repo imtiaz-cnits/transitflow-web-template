@@ -104,12 +104,7 @@
 
 /* START NAVBAR SECTION  */
 nav {
-  background: linear-gradient(
-      to right,
-      rgba(3, 45, 95, 1),
-      rgba(9, 18, 66, 0.2)
-    ),
-    url(../../img/about/about-hero-img.png) no-repeat;
+  
   width: 100%;
   min-height: 50vh !important;
   background-position: center;
