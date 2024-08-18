@@ -39,8 +39,7 @@
 
 /* start hero section  */
 #hero {
-  width: 100%;
-  min-height: 90vh;
+
   display: flex;
   align-items: center;
   align-content: center;
@@ -52,7 +51,7 @@
     ),
     url(../img/about/about-hero-img.png) no-repeat;
   width: 100%;
-  min-height: 50vh;
+  min-height: 60vh;
   background-position: center;
   background-size: cover;
   margin-top: -75px !important;

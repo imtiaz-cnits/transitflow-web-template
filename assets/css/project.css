@@ -36,6 +36,79 @@
   box-sizing: border-box;
 }
 
+
+
+/* start hero section  */
+#hero {
+  
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-family: var(--secondary-font-Krub);
+  background: linear-gradient(
+      to right,
+      rgba(3, 45, 95, 1),
+      rgba(9, 18, 66, 0.2)
+    ),
+    url(../img/project/project-hero-img.png) no-repeat;
+  width: 100%;
+  min-height: 60vh;
+  background-position: center;
+  background-size: cover;
+  margin-top: -75px !important;
+  
+}
+.herowrapper {
+  width: 60%;
+  height: 100%;
+}
+.heroFirstParagraph {
+  display: inline-block;
+  border-left: 6px solid var(--primary-color-1);
+  padding: 5px 15px;
+  font-size: clamp(5px, auto, 10px);
+  font-weight: var(--semibold);
+  color: var(--common-white);
+  background-color: rgba(21, 21, 92, 0.8);
+}
+.heroHeading h1 {
+  font-size: clamp(35px, 4vw, 50px);
+  font-weight: bold;
+  color: var(--common-white);
+  font-family: var(--primary-font-Rubik) !important;
+  line-height: 65px;
+}
+.heroSecondParagraph {
+  font-size: clamp(15px, 2vw, 15px);
+  color: var(--common-white);
+  margin: 20px 0px;
+}
+
+@media screen and (max-width: 1200px) {
+  .herowrapper {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .heroHeading h1 {
+    line-height: 50px;
+    margin: 10px 0px;
+  }
+  .heroSecondParagraph {
+    margin: 10px 0px;
+  }
+  #hero {
+    margin-top: -100px !important;
+  }
+}
+/* end hero section  */
+
+
 /* START PICTURE SECTION  */
 #projectPicture{
   width: 100%;
