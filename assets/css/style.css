@@ -1183,7 +1183,7 @@ content: "";
 width:60px ;
 margin: auto;
 height: 8px ;
-background-color: rgb(191, 219, 255);
+background-color: rgb(103, 165, 246);
 position: absolute;
 bottom: 0;
 animation: relaibleIconship 1s infinite ease-in-out ;
@@ -1256,7 +1256,9 @@ border-radius: 0px 0px 150px 150px ;
  /* start relaibleIcon 4   */
 
  .relaibleIcon .relaibleIcon4 {
-  animation: relaibleIcon4 6s ease-in-out infinite;
+  animation: relaibleIcon4 2s ease-in-out infinite;
+  animation-direction: alternate;
+  
   
 }
 
@@ -1268,12 +1270,11 @@ border-radius: 0px 0px 150px 150px ;
 
 @keyframes relaibleIcon4 {
   0%{
-    padding-left: -10px;
+    padding-left: 0px;
    
     position: absolute;
-  left: -10%;
+  left: 20%;
   top: 0;
-  transform: scale(.0);
     
   }
   
@@ -1281,7 +1282,6 @@ border-radius: 0px 0px 150px 150px ;
     position: absolute;
     left: 30%;
     top: 0;
-    transform: scale(1);
     
   }
   
@@ -1289,3 +1289,4 @@ border-radius: 0px 0px 150px 150px ;
 
 
  /* end  relaible section animation  */ 
+
