@@ -23,3 +23,4 @@ window.onscroll = function (){
         anyName.classList.remove('navbarScrollJsClass');
     }
 }
+

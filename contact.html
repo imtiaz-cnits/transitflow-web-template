@@ -632,7 +632,7 @@
                     proposition.
                   </p>
 
-                  <div class="listLogo mb-3 footerIcon">
+                  <div class="listLogo mb-3 footerIcon text-start">
                     <a href="#">
                       <div class="headerIconParent "> 
                         <img src="./assets/icons/mailBox-icon.svg" alt="">
@@ -644,7 +644,7 @@
                     </a>
                   </div>
 
-                  <div class="listLogo  footerIcon">
+                  <div class="listLogo  footerIcon text-start">
                     <a href="#">
                       <div class="headerIconParent "> 
                         <img src="./assets/icons/call-icon.svg" alt="">
@@ -739,6 +739,22 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+
+        <!-- js for navbar  -->
+        <script>
+          let anyName = document.getElementById('navbarJs');
+window.onscroll = function (){
+    let scrollNav = window.scrollY;
+    if(scrollNav >=100){
+        anyName.classList.add('navbarScrollJsClass');
+    }
+    else{
+        anyName.classList.remove('navbarScrollJsClass');
+    }
+}
+         </script>
+
+         <!-- js for navbar  -->
 
       
     </body>
